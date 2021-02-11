@@ -1,5 +1,5 @@
 steps:
-- id: "##Buid Step using cloudbuil.yaml located in subdir##"
+- id: "##Buid Step using cloudbuil.yaml located in root##"
   name: 'gcr.io/cloud-builders/docker'
   args: [ 'build', '-t', 'us-central1-docker.pkg.dev/$PROJECT_ID/quickstart-docker-repo/quickstart-image:tag4', '.' ]
 images:
