@@ -12,3 +12,4 @@ steps:
   - '--platform'
   - 'managed'
   - '--allow-unauthenticated'
+  dir: 'helloworld'
